@@ -148,4 +148,26 @@ export default {
   text-align: center;
   margin-top: 20px;
 }
+
+@media screen and (max-width: 500px) {
+  .header {
+    width: 100%;
+    margin-bottom: 0;
+
+    .header-h1 {
+      text-align: center;
+    }
+  }
+
+  .main {
+    width: 100%;
+    padding: 10px;
+  }
+  .items {
+    .item {
+      width: calc(100% - 20px);
+      height: 100px;
+    }
+  }
+}
 </style>
