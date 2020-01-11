@@ -1,4 +1,19 @@
-# mouday.github.io
-这个是我的个人主页
+# site
 
-主页地址：http://www.pengshiyu.com/
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
