@@ -19,7 +19,7 @@ rm -f ./site/index.html && \
 cp -r ./dist/* ./site/ && cd site && \
 
 # 添加push
-git add . && git commit -m "auto add" && git push && \
+# git add . && git commit -m "auto add" && git push && \
 
 # 删除
 # cd .. && rm -rf site
