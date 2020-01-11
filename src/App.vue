@@ -10,4 +10,17 @@ body,
 html {
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: #333;
+}
+a:hover,
+a:active {
+  color: #333;
+}
 </style>

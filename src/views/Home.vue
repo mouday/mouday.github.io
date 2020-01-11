@@ -3,7 +3,7 @@
     <div class="header">
       <div>
         <h1 class="header-h1">
-          <a href="/">彭世瑜的博客</a>
+          <a href="/">{{title}}</a>
         </h1>
       </div>
 
@@ -11,7 +11,7 @@
     <div class="main">
       <div class="items">
 
-        <template v-for="item in items">
+        <template v-for="item in list">
           <a :href="item.link" :key="item.id" class="item" :style="{'background-color': item.color}" target="_blank">
             <img :src="item.icon" alt="">
             <h2>{{item.name}}</h2>
@@ -36,10 +36,12 @@ export default {
   components: {},
   data() {
     return {
-      items: [
+      title: "彭世瑜的主页",
+
+      list: [
         {
           name: "读书笔记",
-          link: "./LearnNote",
+          link: "/LearningNote",
           color: "#3e50b5",
           icon: require("@/assets/note.png")
         },
@@ -60,6 +62,19 @@ export default {
           link: "https://zhuanlan.zhihu.com/mouday",
           color: "#0084ff",
           icon: require("@/assets/zhihu.png")
+        },
+        {
+          name: "bilibili",
+          link: "https://space.bilibili.com/362231606",
+          color: "#00a1d6",
+          icon: require("@/assets/bilibili.png")
+        },
+
+        {
+          name: "域名转让",
+          link: this.$router.resolve({ name: "domain" }).href,
+          color: "#ff6a00",
+          icon: require("@/assets/domain.png")
         }
       ]
     };
@@ -68,18 +83,7 @@ export default {
 </script>
 
 <style lang="less" scoped>
-a {
-  text-decoration: none;
-}
-
-a:link,
-a:visited {
-  color: #333;
-}
-a:hover,
-a:active {
-  color: #333;
-}
+@main-width: 850px;
 
 .items {
   display: flex;
@@ -111,7 +115,7 @@ a:active {
 }
 .header {
   height: 60px;
-  width: 850px;
+  width: @main-width;
   margin: 0 auto;
   margin-bottom: 20px;
 
@@ -129,7 +133,7 @@ a:active {
 }
 .main {
   background-color: #ffffff;
-  width: 850px;
+  width: @main-width;
   margin: 0 auto;
   a:link,
   a:visited {
