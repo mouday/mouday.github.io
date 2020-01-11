@@ -106,4 +106,18 @@ export default {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  .main {
+    width: 100%;
+  }
+  .items {
+    flex-wrap: wrap;
+    .item {
+      width: calc(100% - 20px);
+      padding: 10px;
+      margin: 10px 0;
+    }
+  }
+}
 </style>
