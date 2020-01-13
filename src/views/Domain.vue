@@ -52,6 +52,179 @@ export default {
           link: "#",
           color: "#3e50b5",
           icon: require("@/assets/domain.png")
+        },
+        {
+          name: "qiangtixing.com",
+          price: "强提醒",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "liulaogen.com.cn",
+          price: "刘老根",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "anjianzheng.com",
+          price: "安检证",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "chuaitu.com",
+          price: "揣图",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "www.gaoyang.com.cn",
+          price: "高阳",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "qihaoxian.com",
+          price: "七号线",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "shuajiong.com",
+          price: "耍囧",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "hatuan.com",
+          price: "哈团",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "4444444.com.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+
+        {
+          name: "nuomo.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+
+        {
+          name: "laoniu.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+
+        {
+          name: "niuquan.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "tiaochu.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "xauw.com",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "jutu.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "huangche.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+
+        {
+          name: "pingpan.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "fenkuai.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "qianglie.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+
+        {
+          name: "063000.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "twu.com.cn",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "tuan4.com",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "345678.org",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "20007000.com",
+          price: "面议",
+          link: "#",
+          color: "#3e50b5",
+          icon: require("@/assets/domain.png")
         }
       ]
     };
@@ -82,11 +255,13 @@ export default {
 .items {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   .item {
     width: 250px;
     text-align: center;
     padding: 10px;
+    margin: 10px 0;
 
     h2 {
       color: #ffffff;
