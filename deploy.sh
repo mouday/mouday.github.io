@@ -3,7 +3,7 @@
 yarn run build && \
 
 # 推page分支
-# git add . && git commit -m "auto add" && git push && \
+git add . && git commit -m "auto add" && git push && \
 
 # 克隆master分支
 # git clone --depth 1 git@github.com:mouday/mouday.github.io.git site && \
