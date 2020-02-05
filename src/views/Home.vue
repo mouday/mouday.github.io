@@ -75,6 +75,12 @@ export default {
           link: this.$router.resolve({ name: "domain" }).href,
           color: "#ff6a00",
           icon: require("@/assets/domain.png")
+        },
+        {
+          name: "在线工具",
+          link: this.$router.resolve({ name: "tools" }).href,
+          color: "green",
+          icon: require("@/assets/domain.png")
         }
       ]
     };
@@ -120,14 +126,14 @@ export default {
   margin-bottom: 20px;
 
   .header-h1 {
-    color: #ff6700;
+    color: #3e50b5;
     a:link,
     a:visited {
-      color: #ff6700;
+      color: #3e50b5;
     }
     a:hover,
     a:active {
-      color: #ff6700;
+      color: #3e50b5;
     }
   }
 }

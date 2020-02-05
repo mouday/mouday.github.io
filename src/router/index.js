@@ -23,6 +23,11 @@ const routes = [
     path: '/domain',
     name: 'domain',
     component: () => import('../views/Domain.vue')
+  },
+  {
+    path: '/tools',
+    name: 'tools',
+    component: () => import('../views/Tools.vue')
   }
 ]
 
