@@ -46,6 +46,25 @@ export default {
           icon: require("@/assets/note.png")
         },
         {
+          name: "在线工具",
+          link: this.$router.resolve({ name: "tools" }).href,
+          color: "green",
+          icon: require("@/assets/tool.png")
+        },
+
+        {
+          name: "域名转让",
+          link: this.$router.resolve({ name: "domain" }).href,
+          color: "#ff6a00",
+          icon: require("@/assets/domain.png")
+        },
+        {
+          name: "资源导航",
+          link: this.$router.resolve({ name: "nav" }).href,
+          color: "#6666ff",
+          icon: require("@/assets/nav.png")
+        },
+        {
           name: "CSDN博客",
           link: "https://pengshiyu.blog.csdn.net/",
           color: "#ca0a16",
@@ -68,19 +87,6 @@ export default {
           link: "https://space.bilibili.com/362231606",
           color: "#00a1d6",
           icon: require("@/assets/bilibili.png")
-        },
-
-        {
-          name: "域名转让",
-          link: this.$router.resolve({ name: "domain" }).href,
-          color: "#ff6a00",
-          icon: require("@/assets/domain.png")
-        },
-        {
-          name: "在线工具",
-          link: this.$router.resolve({ name: "tools" }).href,
-          color: "green",
-          icon: require("@/assets/domain.png")
         }
       ]
     };
@@ -98,8 +104,8 @@ export default {
 
   .item {
     color: #ffffff;
-    width: 250px;
-    height: 170px;
+    width: 200px;
+    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
