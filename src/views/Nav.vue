@@ -31,6 +31,13 @@ export default {
             "一套为开发者、设计师和产品经理准备的基于 Vue 2.0 的桌面端组件库",
           link: "https://element.eleme.cn/#/zh-CN",
           icon: "https://element.eleme.cn/favicon.ico"
+        },
+        {
+          name: "Iconfont",
+          desc: "-阿里巴巴矢量图标库",
+          link: "https://www.iconfont.cn/",
+          icon:
+            "https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico"
         }
       ]
     };
