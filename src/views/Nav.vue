@@ -34,7 +34,7 @@ export default {
         },
         {
           name: "Iconfont",
-          desc: "-阿里巴巴矢量图标库",
+          desc: "阿里巴巴矢量图标库",
           link: "https://www.iconfont.cn/",
           icon:
             "https://gtms04.alicdn.com/tps/i4/TB1_oz6GVXXXXaFXpXXJDFnIXXX-64-64.ico"
