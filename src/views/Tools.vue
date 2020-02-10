@@ -26,6 +26,12 @@ export default {
           name: "Json格式化",
           link: "https://www.json.cn/",
           icon: "https://www.json.cn/favicon.ico"
+        },
+        {
+          name: "聚合搜索",
+          link: this.$router.resolve({ name: "search" }).href,
+          icon:
+            "https://www.baidu.com/img/baidu_85beaf5496f291521eb75ba38eacbd87.svg"
         }
       ]
     };
